@@ -79,10 +79,10 @@ document.getElementById("products_container").innerHTML=products.map((product)=>
             <img class="w-100 object-fit-cover h-100" src="${product.image}" alt=${product.title}>
           </div>
           <div class="product-content p-3">
-            <h4 class="fw-bold text-capitalize">${product.title}</h4>
+            <h4 class="fw-semibold text-capitalize">${product.title}</h4>
             <p class="text-capitalize mb-2">${product.des}</p>
             <div class="product-price d-flex align-items-center justify-content-between">
-              <span class="text-uppercase fs-5 fw-bold">Rp${product.price}</span>
+              <span class="text-uppercase fs-5 fw-semibold">Rp${product.price}</span>
              ${product.oldPrice ? ` <span class="text-uppercase text-decoration-line-through text-secondary">Rp ${product.oldPrice}</span>`:""}
             </div>
           </div>
