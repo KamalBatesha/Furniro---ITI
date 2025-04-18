@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg mh-100Px">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center col-lg-4" href="#">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo">
+        </div>
+        <h1>Furniro</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse col-lg-8" id="navbarTogglerDemo02">
+        <ul class="navbar-nav justify-content-lg-between mb-2 mb-lg-0 col-lg-6 text-capitalize fs-6 fw-medium">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0 justify-content-lg-end col-lg-6 text-capitalize fs-6 fw-medium flex-row gap-4">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section position-relative">
+    <div>
+      <div class="hero-content p-md-5 p-3 ">
+        <span>New Arrival</span>
+        <h2>Discover Our New Collection</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+        <button class="border-0">BUY Now</button>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="products-section container py-5">
+    <h3 class="text-center text-capitalize fw-bold fs-1">Our Products</h3>
+    <div id="products_container" class="row pt-3">
+      <div class="col-xl-3 col-lg-4 col-md-6 col-12 p-2 justify-content-center">
+        <div class="product-item position-relative">
+          <div class="product-img">
+            <img class="w-100 object-fit-cover h-100" src="./assets/products/1.png" alt="product">
+          </div>
+          <div class="product-content p-3">
+            <h4 class="fw-bold text-capitalize">Syltherine</h4>
+            <p class="text-capitalize mb-2">Stylish cafe chair</p>
+            <div class="product-price d-flex align-items-center justify-content-between">
+              <span class="text-uppercase fs-5 fw-bold">Rp 2.500.000</span>
+              <span class="text-uppercase text-decoration-line-through text-secondary">Rp 2.500.000</span>
+            </div>
+          </div>
+          <div  class="badge position-absolute rounded-circle bg-danger text-white d-flex align-items-center justify-content-center ">-50%</div>
+          <div class="overlay position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100 top-0 start-0">
+            <button class="border-0 px-5 py-2 bg-white">add to cart</button>
+            <ul class="list-unstyled d-flex align-items-center justify-content-between mt-3 w-100 px-3 text-white">
+              <li><a href="#"><i class="me-1 fas fa-share-nodes"></i>Share</a></li>
+              <li><a href="#"><i class="me-1 fas fa-arrow-right-arrow-left"></i>Compare</a></li>
+              <li><a href="#"><i class="me-1 fa-regular fa-heart"></i>Like</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button class="px-5 py-2 bg-white d-block mx-auto mt-3 text-capitalize">Show More</button>
+  </section>
+
+  <section class="insperation-section py-5 overflow-hidden mb-5">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="insperation-data col-lg-4 col-12 align-self-center">
+          <h2 class="fw-bold fs-1">50+ Beautiful rooms inspiration</h2>
+          <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+          <button class="border-0 text-white py-2 px-4">Explore More</button>
+        </div>
+        <div class="col-lg-8 col-12 row mt-5 mt-lg-0">
+
+          <div class="insperation-img col-6 position-relative">
+            <img src="./assets/inspriation/1.png" alt="inspiration" class="w-100">
+            <div class="inner d-flex align-items-end position-absolute ">
+              <div class="first p-lg-4 p-2">
+                <p class="d-flex align-items-center mb-1">01<span></span>Bed Room</p>
+                <p class="fw-semibold mb-0">Inner Peace</p>
+              </div>
+              <button class="second border-0 d-flex align-items-center justify-content-center text-white">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="insperation-slider col-6 position-relative px-3">
+            <div class="clip-path">
+              <div class="slider-imgs d-flex">
+                <img src="./assets/inspriation/2.png" alt="inspiration" class="w-100 px-3">
+                <img src="./assets/inspriation/2.png" alt="inspiration" class="w-100 px-3">
+                <img src="./assets/inspriation/2.png" alt="inspiration" class="w-100 px-3">
+                <img src="./assets/inspriation/2.png" alt="inspiration" class="w-100 px-3">
+              </div>
+            </div>
+            <button id="slider_next" class=" slider-button fw-bolder fs-3 p-0 d-flex align-items-center justify-content-center border-0 bg-white position-absolute top-50 start-100 rounded-circle">></button>
+            <button id="slider_prev" class=" slider-button fw-bolder fs-3 p-0 d-flex align-items-center justify-content-center border-0 bg-white position-absolute top-50 end-100 rounded-circle"><</button>
+           
+            <div class="dots d-flex mt-4 ms-3 align-items-center">
+              <span sliderIndex="0" class=" active rounded-circle d-block me-4"><span class="rounded-circle d-block"></span></span>
+              <span sliderIndex="1" class="rounded-circle d-block me-4"><span class="rounded-circle d-block"></span></span>
+              <span sliderIndex="2" class="rounded-circle d-block me-4"><span class="rounded-circle d-block"></span></span>
+              <span sliderIndex="3" class="rounded-circle d-block me-4"><span class="rounded-circle d-block"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-5 border-top p-5">
+    <div class="container">
+      <div class="footer-top row">
+        <div class="col-lg-3 col-md-6 col-12 mb-5 mb-lg-0 ">
+          <h2 class="text-capitalize fw-bold fs-3 mb-5">Funiro</h2>
+          <p>400 University Drive Suite 200 Coral Gables,<br/>FL 33134 USA</p>
+        </div>
+          <ul class="list-unstyled col-lg-3 col-md-6 col-12 mb-5 mb-lg-0 ps-lg-5 order-1 order-lg-0">
+            <li class="mb-5"><a class="text-capitalize" href="#">Links</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Home</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Shop</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">About</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Contact</a></li>
+          </ul>
+          <ul class="list-unstyled col-lg-3 col-md-6 col-12 mb-5 mb-lg-0 ps-lg-5 order-1 order-lg-0">
+            <li class="mb-5"><a class="text-capitalize" href="#">Help</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Payment Options</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Returns</a></li>
+            <li class="mb-5"><a class="text-capitalize" href="#">Privacy Policies</a></li>
+          </ul>
+          <div class="footer-inputs col-lg-3 col-md-6 col-12 mb-5 mb-lg-0 order-1 order-md-0">
+            <p class="mb-5">Newsletter</p>
+            <div class="d-flex align-items-end gap-4">
+              <input type="email" class="border-0 bg-white pb-2 border-bottom border-2 border-black" placeholder="Enter your email">
+              <button type="submit" class="border-0 bg-white pb-2 border-bottom border-2 border-black">Subscribe</button>
+            </div>
+          </div>
+      </div>
+      <div class="footer-bottom border-top pt-5">
+        2023 furino. All rights reverved
+      </div>
+    </div>
+  </footer>
+  
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
